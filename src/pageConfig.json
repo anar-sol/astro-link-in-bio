@@ -1,0 +1,41 @@
+[
+    {
+        "id": "config",
+        "title": "Les Gnomes sont beaux!",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar eros sit amet lorem auctor feugiat.",
+        "image": "./assets/gnome_by_mcramon_dky7e4u.jpg",
+        "links": [
+            {
+                "label": "Gnome's Art",
+                "href": "https://www.deviantart.com/mcramon/art/Gnome-1266775374",
+                "highlight": true
+            },
+            {
+                "label": "Store",
+                "href": "https://www.example.com"
+            },
+            {
+                "label": "Website",
+                "href": "https://www.example.com"
+            }
+        ],
+        "social": [
+            {
+                "type": "instagram",
+                "href": "https://www.example.com"
+            },
+            {
+                "type": "facebook",
+                "href": "https://www.example.com"
+            },
+            {
+                "type": "youtube",
+                "href": "https://www.example.com"
+            },
+            {
+                "type": "tiktok",
+                "href": "https://www.example.com"
+            }
+        ]
+    }
+]
