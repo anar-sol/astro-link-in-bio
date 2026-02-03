@@ -12,7 +12,6 @@ const icons = {
 };
 
 const pageConfig = await getEntry("pageConfig", "config");
-
 ---
 
 <style>
@@ -147,6 +146,8 @@ const pageConfig = await getEntry("pageConfig", "config");
 		<title>{pageConfig?.data.title}</title>
 		<meta name="description" content={pageConfig?.data.bio} />
 		<meta property="og:title" content={pageConfig?.data.title} />
+		<meta property="og:description" content={pageConfig?.data.bio} />
+		<meta property="og:locale" content="en_US" />
 		<meta property="og:type" content="website" />
 		<meta property="og:image" content={pageConfig?.data.image.src} />
 		<meta property="og:url" content={Astro.site} />
